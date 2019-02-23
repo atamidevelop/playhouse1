@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:playhouse1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="playhouse1 switch controler" Height="450" Width="800">
     <Grid>
-        
-    </Grid>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition/>
+			<ColumnDefinition Width="43*"/>
+		</Grid.ColumnDefinitions>
+
+	</Grid>
 </Window>
