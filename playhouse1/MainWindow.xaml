@@ -5,12 +5,60 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:playhouse1"
         mc:Ignorable="d"
-        Title="playhouse1 switch controler" Height="450" Width="800">
-    <Grid>
+        Title="playhouse1 switch controller" Height="450" Width="368.544">
+	<Grid Margin="0,0,-111,-70">
 		<Grid.ColumnDefinitions>
-			<ColumnDefinition/>
-			<ColumnDefinition Width="43*"/>
+			<ColumnDefinition Width="11"/>
+			<ColumnDefinition Width="161*"/>
+			<ColumnDefinition Width="184*"/>
+			<ColumnDefinition Width="0*"/>
+			<ColumnDefinition Width="116*"/>
 		</Grid.ColumnDefinitions>
+		<ComboBox x:Name="out1" Grid.Column="1" HorizontalAlignment="Left" Height="20" Margin="65,30,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="-0.133,-1.477"/>
+		<Label Content="Out 1" Grid.Column="1" HorizontalAlignment="Left" Height="30" Margin="5,30,0,0" VerticalAlignment="Top" Width="40"/>
+		<Label Content="In" Grid.Column="1" HorizontalAlignment="Left" Height="30" Margin="64,3,0,0" VerticalAlignment="Top" Width="40"/>
+		<ComboBox x:Name="out2" Grid.Column="1" HorizontalAlignment="Left" Height="20" Margin="65,65,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="-0.133,-1.477"/>
+		<Label Content="Out 2" Grid.Column="1" HorizontalAlignment="Left" Height="30" Margin="5,65,0,0" VerticalAlignment="Top" Width="40"/>
+		<ComboBox x:Name="out3" Grid.Column="1" HorizontalAlignment="Left" Height="20" Margin="65,100,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="-0.133,-1.477"/>
+		<Label Content="Out 3" Grid.Column="1" HorizontalAlignment="Left" Height="30" Margin="5,100,0,0" VerticalAlignment="Top" Width="40"/>
+		<ComboBox x:Name="out4" Grid.Column="1" HorizontalAlignment="Left" Height="20" Margin="65,135,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="-0.133,-1.477"/>
+		<Label Content="Out 4" Grid.Column="1" HorizontalAlignment="Left" Height="30" Margin="5,135,0,0" VerticalAlignment="Top" Width="40"/>
+		<ComboBox x:Name="out5" Grid.Column="1" HorizontalAlignment="Left" Height="20" Margin="65,170,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="-0.133,-1.477"/>
+		<Label Content="Out 5" Grid.Column="1" HorizontalAlignment="Left" Height="30" Margin="5,170,0,0" VerticalAlignment="Top" Width="40"/>
+		<ComboBox x:Name="out6" Grid.Column="1" HorizontalAlignment="Left" Height="20" Margin="65,205,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="-0.133,-1.477"/>
+		<Label Content="Out 6" Grid.Column="1" HorizontalAlignment="Left" Height="30" Margin="5,205,0,0" VerticalAlignment="Top" Width="40"/>
+		<ComboBox x:Name="out7" Grid.Column="1" HorizontalAlignment="Left" Height="20" Margin="65,240,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="-0.133,-1.477"/>
+		<Label Content="Out 7" Grid.Column="1" HorizontalAlignment="Left" Height="30" Margin="5,240,0,0" VerticalAlignment="Top" Width="40"/>
+		<ComboBox x:Name="out8" Grid.Column="1" HorizontalAlignment="Left" Height="20" Margin="65,275,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="-0.133,-1.477"/>
+		<Label Content="Out 8" Grid.Column="1" HorizontalAlignment="Left" Height="30" Margin="5,275,0,0" VerticalAlignment="Top" Width="40"/>
+		<ComboBox x:Name="out9" Grid.Column="1" HorizontalAlignment="Left" Height="20" Margin="65,310,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="-0.133,-1.477"/>
+		<Label Content="Out 9" Grid.Column="1" HorizontalAlignment="Left" Height="30" Margin="6,310,0,0" VerticalAlignment="Top" Width="40"/>
+		<ComboBox x:Name="out10" Grid.Column="1" HorizontalAlignment="Left" Height="20" Margin="65,345,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="-0.133,-1.477"/>
+		<Label Content="Out 10" Grid.Column="1" HorizontalAlignment="Left" Height="30" Margin="5,345,0,0" VerticalAlignment="Top" Width="54"/>
+		<ComboBox x:Name="out11" Grid.Column="2" HorizontalAlignment="Left" Height="20" Margin="90,30,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="-0.133,-1.477"/>
+		<Label Content="Out 11" Grid.Column="2" HorizontalAlignment="Left" Height="30" Margin="20,30,0,0" VerticalAlignment="Top" Width="54"/>
+		<ComboBox x:Name="out12" Grid.Column="2" HorizontalAlignment="Left" Height="20" Margin="90,65,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="-0.133,-1.477"/>
+		<Label Content="Out 12" Grid.Column="2" HorizontalAlignment="Left" Height="30" Margin="20,65,0,0" VerticalAlignment="Top" Width="54"/>
+		<ComboBox x:Name="out13" Grid.Column="2" HorizontalAlignment="Left" Height="20" Margin="90,100,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="-0.133,-1.477"/>
+		<Label Content="Out 13" Grid.Column="2" HorizontalAlignment="Left" Height="30" Margin="20,100,0,0" VerticalAlignment="Top" Width="60" RenderTransformOrigin="0.665,0.571"/>
+		<Label Content="Out 14" Grid.Column="2" HorizontalAlignment="Left" Height="30" Margin="20,135,0,0" VerticalAlignment="Top" Width="54"/>
+		<ComboBox x:Name="out14" Grid.Column="2" HorizontalAlignment="Left" Height="20" Margin="90,135,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="-0.133,-1.477"/>
+		<Label Content="Out 15" Grid.Column="2" HorizontalAlignment="Left" Height="30" Margin="20,170,0,0" VerticalAlignment="Top" Width="54"/>
+		<ComboBox x:Name="out15" Grid.Column="2" HorizontalAlignment="Left" Height="20" Margin="90,170,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="-0.133,-1.477"/>
+		<Label Content="Out 16" Grid.Column="2" HorizontalAlignment="Left" Height="30" Margin="20,205,0,0" VerticalAlignment="Top" Width="54"/>
+		<ComboBox x:Name="out16" Grid.Column="2" HorizontalAlignment="Left" Height="20" Margin="90,205,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="-0.133,-1.477"/>
+		<Label Content="Out 17" Grid.Column="2" HorizontalAlignment="Left" Height="30" Margin="20,240,0,0" VerticalAlignment="Top" Width="54"/>
+		<ComboBox x:Name="out17" Grid.Column="2" HorizontalAlignment="Left" Height="20" Margin="90,240,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="-0.133,-1.477"/>
+		<Label Content="Out 18" Grid.Column="2" HorizontalAlignment="Left" Height="30" Margin="20,275,0,0" VerticalAlignment="Top" Width="54"/>
+		<ComboBox x:Name="out18" Grid.Column="2" HorizontalAlignment="Left" Height="20" Margin="90,275,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="-0.133,-1.477"/>
+		<Label Content="Out 19" Grid.Column="2" HorizontalAlignment="Left" Height="30" Margin="20,310,0,0" VerticalAlignment="Top" Width="54"/>
+		<ComboBox x:Name="out19" Grid.Column="2" HorizontalAlignment="Left" Height="20" Margin="90,310,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="-0.133,-1.477"/>
+		<Label Content="Out 20" Grid.Column="2" HorizontalAlignment="Left" Height="30" Margin="20,345,0,0" VerticalAlignment="Top" Width="59"/>
+		<ComboBox x:Name="out20" Grid.Column="2" HorizontalAlignment="Left" Height="20" Margin="90,345,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="-0.133,-1.477"/>
+		<Label Content="In" Grid.Column="2" HorizontalAlignment="Left" Height="30" Margin="90,3,0,0" VerticalAlignment="Top" Width="40"/>
+		<Button x:Name="send" Content="Send" Grid.Column="2" HorizontalAlignment="Right" Height="22" Margin="0,380,42,0" VerticalAlignment="Top" Width="74" Click="send_Click"/>
+		<Button x:Name="randomandsend" Content="Set random and send" Grid.Column="1" Margin="0,380,137,0" Click="randomandsend_Click" Grid.ColumnSpan="2" Height="22" VerticalAlignment="Top" HorizontalAlignment="Right" Width="129"/>
+		<ComboBox x:Name="cmb_rand_range" Grid.Column="1" HorizontalAlignment="Left" Height="22" Margin="28,380,0,0" VerticalAlignment="Top" Width="38"/>
 
 	</Grid>
 </Window>
